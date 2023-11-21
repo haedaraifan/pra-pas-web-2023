@@ -9,6 +9,7 @@
         <a class="nav-link" aria-current="page" href="/">Home</a>
         <a class="nav-link" href="/handphone">Handphone</a>
         <a class="nav-link" href="/laptop">Laptop</a>
+        <a class="nav-link" href="/smartwatch">Smartwatch</a>
       </div>
     </div>
   </div>
