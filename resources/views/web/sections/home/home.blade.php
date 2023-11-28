@@ -43,5 +43,25 @@
       @endforeach
     </div>
   </section>
+
+  <section class="mt-4">
+    <div class="row justify-content-between">
+      <h2 class="col-auto">Latest Smart Watch</h2>
+      <a type="button" class="col-auto btn btn-info mx-1 text-center" href="/laptop">More</a>
+    </div>
+    <div class="row mt-4">
+      @foreach ($smartWatches as $smartWatch)
+        <div class="col-md-6 mb-4 d-flex">
+          <div class="card">
+            <img src="{{ $smartWatch->gambar }}" class="card-img-top w-100" alt="Phone 1">
+            <div class="card-body">
+              <h5 class="card-title">{{ $smartWatch->nama }}</h5>
+              <p class="card-text">{{ $smartWatch->warna }}</p>
+            </div>
+          </div>
+        </div>
+      @endforeach
+    </div>
+  </section>
 </div>
 @endsection

@@ -6,6 +6,8 @@ use App\Models\Handphone;
 use App\Http\Controllers\HandphoneController;
 use App\Models\Laptop;
 use App\Http\Controllers\LaptopController;
+use App\Models\SmartWatch;
+use App\Http\Controllers\SmartWatchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +29,7 @@ Route::get('/handphone/{handphone}', [HandphoneController::class, 'show']);
 Route::get('/laptop', [LaptopController::class, 'index']);
 
 Route::get('/laptop/{laptop}', [LaptopController::class, 'show']);
+
+Route::get('/smartwatch', [SmartWatchController::class, 'index']);
+
+Route::get('/smartwatch/{smartwatch}', [SmartWatchController::class, 'show']);
